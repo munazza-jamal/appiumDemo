@@ -36,7 +36,7 @@ jobs:
             appium -v
             appium &>/dev/null &
     - name: Run Appium Tests
-      uses:faruktoptas/android-github-actions-emulator@latest
+      uses: faruktoptas/android-github-actions-emulator@latest
       with:
         api-level: ${{ matrix.api-level }}
         target: ${{ matrix.target }}
