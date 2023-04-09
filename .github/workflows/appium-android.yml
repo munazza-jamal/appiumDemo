@@ -36,7 +36,7 @@ jobs:
             appium -v
             appium &>/dev/null &
     - name: Run Appium Tests
-      uses: reactivecircus/android-emulator-runner@v1
+      uses: vgaidarji/android-github-actions-emulator@v1.0.1
       with:
         api-level: ${{ matrix.api-level }}
         target: ${{ matrix.target }}
