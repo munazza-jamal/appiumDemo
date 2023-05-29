@@ -6,7 +6,7 @@
             <class name="testCases.LoginTest">
                 <methods>
                     <include name="verifyUserCreation"/>
-                </methods>
+                </methods> 
             </class> 
         </classes>
     </test>
