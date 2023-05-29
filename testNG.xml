@@ -7,7 +7,7 @@
                 <methods>
                     <include name="verifyUserCreation"/>
                 </methods>
-            </class>
+            </class> 
         </classes>
     </test>
 </suite>
